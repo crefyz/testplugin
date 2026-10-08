@@ -1,0 +1,14 @@
+name: AscensionSMP
+version: 1.0.0
+main: dev.ascension.AscensionPlugin
+api-version: "1.21"
+description: Elemental SMP - random elements, kill-based ascension levels, rift shards.
+commands:
+  element:
+    description: Ascension SMP command
+    usage: /element [info|core|set|level|shard]
+    aliases: [asc, ascension]
+permissions:
+  ascension.admin:
+    description: Admin commands for Ascension SMP
+    default: op

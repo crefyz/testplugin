@@ -1,0 +1,8 @@
+# Base ability cooldown in seconds at level 1
+base-cooldown: 32
+# Seconds removed from the cooldown per level above 1
+cooldown-reduction-per-level: 4
+# Chance (0.0 - 1.0) that a player kill drops a Rift Shard
+shard-drop-chance: 0.15
+# Level cap
+max-level: 5
